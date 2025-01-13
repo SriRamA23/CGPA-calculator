@@ -126,5 +126,5 @@ function calculateCGPA() {
 
     const cgpa = totalCredits === 0 ? 0 : weightedSum / totalCredits;
     document.getElementById('result').innerText = `Your CGPA is: ${cgpa.toFixed(2)}\ntotal credits earned: ${totalCredits}`;
-    console.log("By Team DEVS - Sri Ram A , Sugan , Akhil);
+    console.log("By Team DEVS - Sri Ram A , Sugan , Akhil");
 }
